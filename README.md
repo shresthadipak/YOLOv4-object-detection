@@ -1,4 +1,4 @@
-# YOLOv4-object-detection
+# YOLOv4 Object Detection Model
 Object detection using YOLOv4 from scratch and have some basic concept over object detection model via the flow diagram.
 
 ![This is an image](/images/AO.png)
@@ -17,8 +17,11 @@ Overall, YOLOv4 architecture is more efficient and accurate than YOLOv3.
 
 [Download file](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights) and save it into YOLOv4_model folder.
 
-# Examples of YOLOv4 Model
+# Detection Demo of YOLOv4 Model
 
+![This is an image](/output/output1.png)
+
+![This is an image](/output/output2.png)
 
 # License
 The MIT License (MIT). Please see [License File](/LICENSE) for more information.
