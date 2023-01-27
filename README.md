@@ -5,13 +5,13 @@ Object detection using YOLOv4 from scratch and have some basic concept over obje
 
 YOLOv4 is a convolutional neural network (CNN) based object detection model. It uses a single neural network to predict bounding boxes and class probabilities directly from full images in one pass. The architecture of YOLOv4 consists of several layers, including:
 
-A backbone network, which is responsible for extracting feature maps from the input image. In YOLOv4, the backbone network is a variant of the CSPDarknet architecture, which is a combination of the Darknet and Cross Stage Partial (CSP) architectures.
+1. A backbone network, which is responsible for extracting feature maps from the input image. In YOLOv4, the backbone network is a variant of the CSPDarknet architecture, which is a combination of the Darknet and Cross Stage Partial (CSP) architectures.
 
-A neck network, which is used to fuse feature maps from the backbone network and extract higher-level features. In YOLOv4, the neck network consists of several SPP (Spatial Pyramid Pooling) and PAN (Path Aggregation Network) blocks.
+2. A neck network, which is used to fuse feature maps from the backbone network and extract higher-level features. In YOLOv4, the neck network consists of several SPP (Spatial Pyramid Pooling) and PAN (Path Aggregation Network) blocks.
 
-A head network, which is used to predict bounding boxes and class probabilities from the features extracted by the neck network. The head network in YOLOv4 consists of several YOLO (You Only Look Once) blocks, which are similar to the YOLOv3 blocks but with some modifications.
+3. A head network, which is used to predict bounding boxes and class probabilities from the features extracted by the neck network. The head network in YOLOv4 consists of several YOLO (You Only Look Once) blocks, which are similar to the YOLOv3 blocks but with some modifications.
 
-a auxiliary network, which is used to enhance the feature maps and improve the accuracy of the prediction, The auxiliary network in YOLOv4 consists of SPADE (Spatially Adaptive Normalization) blocks and PAN blocks.
+4. A auxiliary network, which is used to enhance the feature maps and improve the accuracy of the prediction, The auxiliary network in YOLOv4 consists of SPADE (Spatially Adaptive Normalization) blocks and PAN blocks.
 
 Overall, YOLOv4 architecture is more efficient and accurate than YOLOv3.
 
