@@ -15,7 +15,7 @@ YOLOv4 is a convolutional neural network (CNN) based object detection model. It 
 
 Overall, YOLOv4 architecture is more efficient and accurate than YOLOv3.
 
-[Download file](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights) and save it into YOLOv4_model folder.
+[Download file yolov4 model](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights) and save it into YOLOv4_model folder.
 
 # Detection Demo of YOLOv4 Model
 
